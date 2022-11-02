@@ -1,16 +1,28 @@
 [
     {
-        "ID": "1",
-        "Name": "Remera"
+        "ID": "producto1",
+        "Name": "Jean"
     },
 
     {
-        "ID" : "2",
-        "Name" : "Jean"
+        "ID" : "producto2",
+        "Name" : "Remera Pique"
     },
     {
-        "ID" : "3",
-        "Name" : "Campera micropolar"
+        "ID" : "producto3",
+        "Name" : "Vestido"
+    },
+    {
+        "ID" : "producto4",
+        "Name" : "Jean Oxfod"
+    },
+    {
+        "ID" : "producto5",
+        "Name" : "Sweater"
+    },
+    {
+        "ID" : "producto6",
+        "Name" : "Remera Blanca"
     }
 
 

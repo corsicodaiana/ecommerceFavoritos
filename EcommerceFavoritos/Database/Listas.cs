@@ -79,7 +79,6 @@ namespace Ecommerce.Database
 
         public static void AddFavorite(Favorite Favorite)
         {
-            Favorites.Add(Favorite);
             SaveFavorite(Favorite);
         }
 
