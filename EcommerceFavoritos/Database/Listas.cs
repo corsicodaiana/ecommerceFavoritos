@@ -77,9 +77,10 @@ namespace Ecommerce.Database
             }
         }
 
-        public static void AddFavorite(Favorite Favorite)
+        public static void AddFavorite(Favorite favorite)
         {
-            SaveFavorite(Favorite);
+            favorite.ID = Convert.ToString((getFavorites()).Count + 1);
+            SaveFavorite(favorite);
         }
 
         public static void AddProducto(Producto Producto)
