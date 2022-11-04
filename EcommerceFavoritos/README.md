@@ -60,6 +60,31 @@
 | 3 - Se verifica la existencia del producto, este existe.                   | 3.1 - No se puede verificar la existencia del producto, se muestra un mensaje de error, Fin de CU.   |
 | 4 - Se borra de la db.                                                     |                                                                                                      |
 | 5 - Fin de CU.                                                             |                                                                                                      |
-
-<p>Para ver la documentación más en tiempo real o por sí esta esta desactualizada, se puede ver <a href = "https://docs.google.com/document/d/1pgvbJH-FUGPf-FYwet31InNrEFcPjDBXCVLfEEpbf5E/edit?usp=sharing">link</a>.</p>
 </div>
+
+   
+    
+<h3>Agregar árticulo a lista de favoritos.</h3>
+<img src = "https://user-images.githubusercontent.com/43465958/200078667-d5c8bf88-df53-4142-81ba-d064e7a75d51.png">
+    
+<h3>Eliminar árticulo de la lista de favoritos.</h3>
+<img src="https://user-images.githubusercontent.com/43465958/200078574-f3dab51d-10e9-426a-9751-f28ed3fb772d.png">
+    
+<h3>Mostrar lista de Favoritos.</h3>
+<img src="https://user-images.githubusercontent.com/43465958/200078286-109f6a23-bee3-4980-884d-6ce2a1d0117c.png">
+
+
+
+<div>
+<h2>Testing:</h2>
+A la hora de testear, primero se debe bajar el <a href ="https://dotnet.microsoft.com/en-us/download">dotnet sdk</a>, después de esto abrir el proyecto en la carpeta <b>“EcommerceFavoritos” </b>, y desde ahi ejecutar el comando <b>“dotnet run”</b>.
+
+Después de esto se pueden probar de dos maneras, La forma más simple es cuando se testea mediante interfaz grafica, donde podemos gestionar los favoritos mediante una pagina web.
+Y la otra manera es testeando los metodos mediante Swagger u otro tester de APIs (ya sea Postman o Insomnia por ejemplo).
+
+Sí se testea mediante esta segunda manera se deben saber los siguientes atributos, hay 4 <a href="https://github.com/corsicodaiana/ecommerceFavoritos/blob/main/EcommerceFavoritos/Database/Clientes.json">personas precargadas</a> con numero de identificador 1,2,3,4.
+
+También existen 6 <a href ="">productos precagados</a> con nombre producto1, producto2, producto3, producto4, producto5 y producto6. 
+Y por ultimo, dejamos precargados unos <a href= "https://github.com/corsicodaiana/ecommerceFavoritos/blob/main/EcommerceFavoritos/Database/Favorites.json">favoritos</a> entre los usuarios y los productos.
+</div>
+
