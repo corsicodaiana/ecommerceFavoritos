@@ -84,7 +84,7 @@ Y la otra manera es testeando los metodos mediante Swagger u otro tester de APIs
 
 Sí se testea mediante esta segunda manera se deben saber los siguientes atributos, hay 4 <a href="https://github.com/corsicodaiana/ecommerceFavoritos/blob/main/EcommerceFavoritos/Database/Clientes.json">personas precargadas</a> con numero de identificador 1,2,3,4.
 
-También existen 6 <a href ="">productos precagados</a> con nombre producto1, producto2, producto3, producto4, producto5 y producto6. 
+También existen 6 <a href ="https://github.com/corsicodaiana/ecommerceFavoritos/blob/main/EcommerceFavoritos/Database/Productos.json">productos precagados</a> con nombre producto1, producto2, producto3, producto4, producto5 y producto6. 
 Y por ultimo, dejamos precargados unos <a href= "https://github.com/corsicodaiana/ecommerceFavoritos/blob/main/EcommerceFavoritos/Database/Favorites.json">favoritos</a> entre los usuarios y los productos.
 </div>
 
